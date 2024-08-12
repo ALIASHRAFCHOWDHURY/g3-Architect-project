@@ -77,6 +77,7 @@ main > section {
 
 .teams{
         align-items: center;
+       
 }
 .team-img{
         display: grid;
@@ -94,7 +95,35 @@ main > section {
 .text-primary{
         color: #FF900E;
 }
-
+/* fact related styles */
+.facts-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+        border: 1px solid #FF900E;
+        height: 240px;
+        width: 240px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+}
+.fact-number{
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin: 5px;
+}
+.fact-name{
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 5px;
+}
+.fact-description{
+        max-width: 540px;
+}
 /* responsive part */
 
 @media screen and (max-width: 576px) {
